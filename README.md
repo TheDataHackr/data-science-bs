@@ -18,11 +18,11 @@ Linux:
 To start the container and get a command prompt:
 ```
 Windows:
-  docker run -v "C:\Users\username\path\to\data-science-bs":/opt/project -it sccpython bash
+  docker run -v "C:\Users\username\path\to\data-science-bs":/opt/project -it dsbs-python bash
 Mac OS:
-  docker run -v /Users/username/path/to/data-science-bs:/opt/project -it sccpython bash
+  docker run -v /Users/username/path/to/data-science-bs:/opt/project -it dsbs-python bash
 Linux:
-  docker run -v /home/username/path/to/data-science-bs:/opt/project -it sccpython bash
+  docker run -v /home/username/path/to/data-science-bs:/opt/project -it dsbs-python bash
 ```
 
 To run code from the repository (from inside the command prompt from above):
