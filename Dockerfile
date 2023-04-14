@@ -7,9 +7,9 @@
 #
 #  To start the container and get a command prompt:
 #    Windows/Mac OSX:
-#      docker run -v "C:\Users\username\path\to\data-science-bs":/opt/project -it sccpython bash
+#      docker run -v "C:\Users\username\path\to\data-science-bs":/opt/project -it dsbs-python bash
 #    Linux:
-#      docker run -v /home/username/path/to/data-science-bs:/opt/project -it sccpython bash
+#      docker run -v /home/username/path/to/data-science-bs:/opt/project -it dsbs-python bash
 #
 #  For Debugging:
 #    Run with: python code.py (using breakpoint() inside the code --> drops to ipdb)
